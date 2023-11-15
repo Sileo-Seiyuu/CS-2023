@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formative Assessment 6</title>
+
+        <style>
+            *{
+                border-sizing: border-box;
+            }
+
+            /*Link styles*/
+            .link{
+                border:5px dashed black;
+                text-decoration:none;
+                color:blanchedalmond;
+                font-family:Roboto;
+                font-size:50px;
+                margin:5px
+            }
+
+            #alement{
+                background-color:rgb(99, 99, 99);
+            }
+
+            #alement:visited{
+                background-color: rgb(66, 66, 66);
+            }
+
+            #alement:hover{
+                background-color: rgb(44, 44, 44);
+            }
+
+            #alement:active{
+                background-color: black;
+                border:5px dashed rgb(177, 177, 177);
+            }
+
+            #colement{
+                background-color: rgb(51, 51, 170);
+            }
+
+            #colement:visited{
+                background-color: rgb(185, 40, 178);
+            }
+
+            #colement:hover{
+                background-color: rgb(5, 5, 150);
+            }
+
+            #colement:active{
+                background-color: rgb(102, 8, 139);
+            }
+
+            #return{
+                background-color: gray;
+            }
+
+            /*Div styles*/
+            .diva{
+                border:5px burlywood;
+                width: 20%;
+				height: 200px;
+				text-align: center;
+				font-size: 50px;
+            }
+
+            #div1{
+				border-style: double;
+			}
+			
+			#div2{
+				border-style: solid;
+			}
+			
+			#div1:target{
+				background-color: rgb(238, 194, 101);
+				color: blanchedalmond;
+			}
+			
+			#div2:target{
+                background-color: burlywood;
+				border: 10px dotted rgb(19, 153, 19);
+			}
+
+        </style>
+    </head>
+
+    <body>
+    <!--a.k.a links-->
+		<a href="#div1" id="alement" class="link">Link 1</a>
+		<a href="#div2" id="colement" class="link">Link 2</a>
+		<a href="FA6_Sarita.html" id="return" class="link">Return</a>
+		
+		<br> <br>
+		
+		<!--Divs-->
+		<div id="div1" class="diva">Div 1</div>
+		
+		<br>
+		
+		<div id="div2" class="diva">Div 2</div>
+		
+    
+
+    </body>
+</html>
